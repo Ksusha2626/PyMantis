@@ -1,0 +1,12 @@
+[
+  {
+    "py/object": "model.project.Project",
+    "description": "description",
+    "name": "nameyl"
+  },
+  {
+    "py/object": "model.project.Project",
+    "description": "description",
+    "name": "name"
+  }
+]

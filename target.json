@@ -6,5 +6,12 @@
   "webAdmin": {
     "name": "administrator",
     "password": "root"
+  },
+
+    "db": {
+    "host": "localhost",
+    "name": "bugtracker",
+    "user": "root",
+    "password": ""
   }
 }

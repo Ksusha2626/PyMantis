@@ -104,3 +104,9 @@ venv.bak/
 .mypy_cache/
 
 env
+.idea/
+fixture/__init__.py
+test/__init__.py
+model/__init__.py
+generator/__init__.py
+data/__init__.py
