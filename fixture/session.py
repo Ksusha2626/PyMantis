@@ -36,7 +36,7 @@ class SessionHelper:
 
     def get_logged_user(self):
         wd = self.app.wd
-        return wd.find_element_by_xpath("//span[contains(.,'administrator')]").text
+        return wd.find_element_by_css_selector("td.login-info-left span").text
 
     def is_logged_in_as(self, username):
         wd = self.app.wd
