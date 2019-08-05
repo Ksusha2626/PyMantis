@@ -110,3 +110,4 @@ test/__init__.py
 model/__init__.py
 generator/__init__.py
 data/__init__.py
+resources/
