@@ -8,7 +8,7 @@ def test_delete_project(app, db):
     # old_list = db.get_project_list()
     old_list = app.soap.get_projects()
     project = random.choice(old_list)
-    app.project.delete(project.id)
+    app.project.delete_by_name(project.name)
     # new_list = db.get_project_list()
     new_list = app.soap.get_projects()
     assert len(old_list) - 1 == len(new_list)
